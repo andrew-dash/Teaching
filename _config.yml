@@ -1,0 +1,11 @@
+name: "notandrewkaye"
+description: "yo"
+
+url: "http://localhost:4000"
+
+paginate: 20
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
+
