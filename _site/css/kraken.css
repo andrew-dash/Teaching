@@ -1043,7 +1043,7 @@ a, a:hover, a:focus {
   color: #ECF0F1; }
 
 .courses {
-  background-color: #34495E;
+  background-color: #95A5A6;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   color: #ECF0F1; }
@@ -1056,3 +1056,13 @@ a, a:hover, a:focus {
 
 .CMS {
   background-color: #E74C3C; }
+
+.aps {
+  background-color: #34495E; }
+
+.ai {
+  background-color: #F1C40F; }
+
+.my-footer {
+  color: #ECF0F1;
+  background-color: #000; }
