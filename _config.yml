@@ -1,7 +1,7 @@
 name: "teaching.notandrewkaye.com"
 description: "Course Directory"
 
-url: "http://localhost:4000"
+url: "http://notandrewkaye.github.io/Teaching/"
 
 paginate: 20
 
@@ -14,8 +14,8 @@ pygments: true
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://localhost:4000'
-  relativeLinks: 'http://localhost:4000/links.jsonp'
+  siteurl: 'http://notandrewkaye.github.io/Teaching/'
+  relativeLinks: 'http://notandrewkaye.github.io/Teaching/links.jsonp'
   media: 'assets/images/'
   metadata:
     _posts:
