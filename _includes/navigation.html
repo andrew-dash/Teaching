@@ -1,11 +1,9 @@
-<section class="space-bottom bg">
+<section class="bg {% if page.tag %}{{ page.tag }}{% endif %}">
 	<article class="container">
 		<nav class="nav-wrap">
-			<a class="logo" href="#">notandrewkaye</a>
+			<a class="logo" href="#">{% if page.title %} {{ page.title }}{% endif %}</a>
 				<ul class="nav">
-					<li><a href="#">About</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Teaching</a></li>
+					<li><a href="/">Back to Courses</a></li>
 				</ul>
 		</nav>
 	</article>

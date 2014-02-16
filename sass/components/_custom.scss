@@ -18,6 +18,10 @@ a, a:hover, a:focus {
     color: #ECF0F1;
 }
 
+.logo{
+    color: #ECF0F1;
+}
+
 h1 {
     font-size: 3em;
 }
@@ -27,6 +31,12 @@ h1 {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     color: #34495E;
+}
+
+h1.index-nav{
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+    padding-top: 0;
 }
 
 .PP {
@@ -56,4 +66,9 @@ h1 {
 .my-footer{
     color: #ECF0F1;
     background-color: #000;
+}
+
+.subnav{
+    padding-top: 0em;
+    padding-bottom:1.5em;
 }

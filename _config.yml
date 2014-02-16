@@ -6,6 +6,62 @@ url: "http://localhost:4000"
 paginate: 20
 
 markdown: rdiscount
-permalink: pretty
+permalink: none
 pygments: true
+
+
+# prose.io configuration
+
+prose:
+  rooturl: '_posts/'
+  siteurl: 'http://localhost:4000'
+  relativeLinks: 'http://localhost:4000/links.jsonp'
+  media: 'assets/images/'
+  metadata:
+    _posts:
+        - name: "layout"
+            field:
+                element: "hidden"
+                value: "post"
+        - name: "tag"
+            field:
+                element: "select"
+                label: "Add a Tag"
+                placeholder: "Choose a Tag"
+                options:
+                    - name: "DFWP"
+                      value: "DFWP"
+                    - name: "PP"
+                      value: "PP"
+                    - name: "AHAC"
+                      value: "AHAC"
+                    - name: "CMS"
+                      value: "CMS"
+                    - name: "APS"
+                      value: "APS"
+                    - name: "AI"
+                      value: "AI"
+                    - name: "3D"
+                      value: "3D"
+      - name: "category"
+        field:
+          element: "select"
+          label: "Add Categories"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Designing For Wordpress"
+              value: "dfwp"
+            - name: "Portfolio Prep"
+              value: "pp"
+            - name: "Advanced HTML & CSS"
+              value: "ahac"
+            - name: "Content Management Systems"
+              value: "cms"
+            - name: "Photoshop"
+              value: "aps"
+            - name: "Illustrator"
+              value: "ai"
+            - name: "Introduction to 3D Modeling"
+              value: "threed"
+
 

@@ -1,0 +1,13 @@
+<section class="space-bottom {% if page.tag %}{{ page.tag }}{% endif %} subnav">
+	<article class="container">
+        <nav class="nav-wrap">
+            <ul class="nav text-center">
+                {% for post in site.posts reversed %}
+                    {% if post.tag == page.tag %}
+                        <li><a data-scroll data-speed="500" data-easing="easeInOutCubic" data-url="false" href="#{{ post.name }}">{{ post.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+		</nav>
+    </article>
+</section>

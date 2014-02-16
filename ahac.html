@@ -1,0 +1,15 @@
+---
+title: Advanced HTML & CSS
+layout: page
+tag: AHAC
+---
+
+{% for post in site.posts reversed %}
+    
+    {% if post.tag == page.tag %}
+        <h2><span id="{{ post.name }}">{{ post.title }}</span></h2>
+        <div>
+            {{ post.content }}
+        </div>
+    {% endif %}
+{% endfor %}
