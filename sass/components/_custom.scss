@@ -4,10 +4,6 @@
 
  * ============================================================= */
 
-.DFWP {
-	background-color: #9B59B6;
-}
-
 .course-banner{
     padding-top: 2em;
     padding-bottom: 2em;
@@ -26,50 +22,12 @@ h1 {
     font-size: 3em;
 }
 
-.courses {
-	background-color: #95A5A6;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    color: #34495E;
-}
-
 h1.index-nav{
     margin-bottom: 0.1em;
     margin-top: 0.1em;
     padding-top: 0;
 }
 
-.PP {
-    background-color: #3498DB;
-}
-
-.pp-copy a:link, .pp-copy a{
-    color: #3498DB;
-}
-
-.pp-copy a:hover, .pp-copy a:focus{
-    color: #3498DB;
-}
-
-.AHAC {
-    background-color: #2ECC71;
-}
-
-.CMS {
-    background-color: #E74C3C;
-}
-
-.aps{
-    background-color: #34495E;
-}
-
-.ai {
-    background-color: #F1C40F;
-}
-
-.three-d {
-    background-color: #1ABC9C;
-}
 
 .my-footer{
     color: #fff;
@@ -83,4 +41,89 @@ a.dark-link{
 .subnav{
     padding-top: 0em;
     padding-bottom:1.5em;
+}
+
+/* ============================
+
+    Designing for Wordpress
+
+*  ============================ */
+
+.DFWP {
+	background-color: #9B59B6;
+}
+
+.dfwp-copy a:link, .dfwp-copy a{
+    color: #3498DB;
+}
+
+.dfwp-copy a:hover, .dfwp-copy a:focus{
+    color: #3498DB;
+}
+
+/* ============================
+
+    Portfolio Prep
+
+*  ============================ */
+.PP {
+    background-color: #3498DB;
+}
+
+.pp-copy a:link, .pp-copy a{
+    color: #3498DB;
+}
+
+.pp-copy a:hover, .pp-copy a:focus{
+    color: #3498DB;
+}
+
+/* ============================
+
+    Advanced HTML & CSS
+
+*  ============================ */
+
+.AHAC {
+    background-color: #2ECC71;
+}
+
+/* ============================
+
+    Content Management Systems
+
+*  ============================ */
+
+.CMS {
+    background-color: #E74C3C;
+}
+
+/* ============================
+
+    Photoshop
+
+*  ============================ */
+
+.aps{
+    background-color: #34495E;
+}
+
+/* ============================
+
+    Illustrator
+
+*  ============================ */
+
+.ai {
+    background-color: #F1C40F;
+}
+
+/* ============================
+
+    Intro to 3D
+
+*  ============================ */
+
+.three-d {
+    background-color: #1ABC9C;
 }
