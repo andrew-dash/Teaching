@@ -33,6 +33,11 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+      - name: "name"
+        field:
+          element: "text"
+          label: "Name"
+          value: ""
       - name: "category"
         field:
           element: "select"
