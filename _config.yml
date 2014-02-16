@@ -2,6 +2,7 @@ name: "teaching.notandrewkaye.com"
 description: "Course Directory"
 
 url: "http://notandrewkaye.github.io/Teaching/"
+baseurl: "/Teaching"
 
 paginate: 20
 
