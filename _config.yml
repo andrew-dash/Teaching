@@ -13,36 +13,20 @@ pygments: true
 # prose.io configuration
 
 prose:
-  rooturl: '_posts/'
+  rooturl: '_posts'
   siteurl: 'http://localhost:4000'
   relativeLinks: 'http://localhost:4000/links.jsonp'
   media: 'assets/images/'
   metadata:
     _posts:
-        - name: "layout"
-            field:
-                element: "hidden"
-                value: "post"
-        - name: "tag"
-            field:
-                element: "select"
-                label: "Add a Tag"
-                placeholder: "Choose a Tag"
-                options:
-                    - name: "DFWP"
-                      value: "DFWP"
-                    - name: "PP"
-                      value: "PP"
-                    - name: "AHAC"
-                      value: "AHAC"
-                    - name: "CMS"
-                      value: "CMS"
-                    - name: "APS"
-                      value: "APS"
-                    - name: "AI"
-                      value: "AI"
-                    - name: "3D"
-                      value: "3D"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
       - name: "category"
         field:
           element: "select"
@@ -63,5 +47,25 @@ prose:
               value: "ai"
             - name: "Introduction to 3D Modeling"
               value: "threed"
+      - name: "tag"
+        field:
+          element: "select"
+          label: "Add Tag"
+          placeholder: "Choose Tags"
+          options:
+            - name: "DFWP"
+              value: "DFWP"
+            - name: "PP"
+              value: "PP"
+            - name: "AHAC"
+              value: "AHAC"
+            - name: "CMS"
+              value: "CMS"
+            - name: "APS"
+              value: "APS"
+            - name: "AI"
+              value: "AI"
+            - name: "3D"
+              value: "3D"
 
 
