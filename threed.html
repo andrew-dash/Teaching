@@ -1,14 +1,14 @@
 ---
-title: Advanced HTML & CSS
+title: Introduction to 3D Modeling: Rhino and Maya
 layout: page
-tag: AHAC
+tag: 3D
 ---
 
 {% for post in site.posts reversed %}
     
     {% if post.tag == page.tag %}
         <h2><span id="{{ post.name }}">{{ post.title }}</span></h2>
-        <div class="ahac-copy">
+        <div class="three-d-copy">
             {{ post.content }}
         </div>
     {% endif %}

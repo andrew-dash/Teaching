@@ -1,14 +1,14 @@
 ---
-title: Advanced HTML & CSS
+title: Illustrator
 layout: page
-tag: AHAC
+tag: AI
 ---
 
 {% for post in site.posts reversed %}
     
     {% if post.tag == page.tag %}
         <h2><span id="{{ post.name }}">{{ post.title }}</span></h2>
-        <div class="ahac-copy">
+        <div class="ai-copy">
             {{ post.content }}
         </div>
     {% endif %}
