@@ -92,6 +92,14 @@ a.dark-link{
     background-color: #2ECC71;
 }
 
+.ahac-copy a:link, .ahac-copy a{
+    color: #3498DB;
+}
+
+.ahac-copy a:hover, .ahac-copy a:focus{
+    color: #3498DB;
+}
+
 /* ============================
 
     Content Management Systems
@@ -102,14 +110,30 @@ a.dark-link{
     background-color: #E74C3C;
 }
 
+.cms-copy a:link, .cms-copy a{
+    color: #3498DB;
+}
+
+.cms-copy a:hover, .cms-copy a:focus{
+    color: #3498DB;
+}
+
 /* ============================
 
     Photoshop
 
 *  ============================ */
 
-.aps{
+.APS{
     background-color: #34495E;
+}
+
+.aps-copy a:link, .aps-copy a{
+    color: #3498DB;
+}
+
+.aps-copy a:hover, .aps-copy a:focus{
+    color: #3498DB;
 }
 
 /* ============================
@@ -118,8 +142,16 @@ a.dark-link{
 
 *  ============================ */
 
-.ai {
+.AI {
     background-color: #F1C40F;
+}
+
+.ai-copy a:link, .ai-copy a{
+    color: #3498DB;
+}
+
+.ai-copy a:hover, .ai-copy a:focus{
+    color: #3498DB;
 }
 
 /* ============================
@@ -130,4 +162,12 @@ a.dark-link{
 
 .three-d {
     background-color: #1ABC9C;
+}
+
+.three-d-copy a:link, .three-d-copy a{
+    color: #3498DB;
+}
+
+.three-d-copy a:hover, .three-d-copy a:focus{
+    color: #3498DB;
 }
