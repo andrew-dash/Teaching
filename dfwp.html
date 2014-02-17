@@ -7,7 +7,7 @@ tag: "DFWP"
 {% for post in site.posts reversed %}
     
     {% if post.tag == page.tag %}
-        <h1><span id="{{ post.name }}">{{ post.title }}</span></h1>
+        <h2><span id="{{ post.name }}">{{ post.title }}</span></h2>
         <div class="dfwp-copy">
             {{ post.content }}
         </div>

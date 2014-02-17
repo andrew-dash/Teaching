@@ -1050,6 +1050,9 @@ h1.index-nav {
   margin-top: 0.1em;
   padding-top: 0; }
 
+h2 {
+  font-size: 2em; }
+
 .my-footer {
   color: #fff;
   background-color: #000; }
