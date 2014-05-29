@@ -6,6 +6,26 @@
 		<!-- In the footer for better performance -->
 		<script src="{{ site.baseurl}}/js/kraken.js"></script>
 		<script src="{{ site.baseurl}}/js/smooth-scroll.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function() {
+			// Show or hide the sticky footer button
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 200) {
+					$('.go-top').fadeIn(200);
+				} else {
+					$('.go-top').fadeOut(200);
+				}
+			});
+			
+			// Animate the scroll to top
+			$('.go-top').click(function(event) {
+				event.preventDefault();
+				
+				$('html, body').animate({scrollTop: 0}, 300);
+			})
+		});
+	</script>
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
