@@ -1047,6 +1047,9 @@ a, a:hover, a:focus {
   font-size: 3em;
   float: none; }
 
+a.logo {
+  text-decoration: none; }
+
 h1 {
   font-size: 3em; }
 
