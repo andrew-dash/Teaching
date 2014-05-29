@@ -16,6 +16,7 @@ a, a:hover, a:focus {
 
 .logo{
     color: #ECF0F1;
+    font-size: 3em;
 }
 
 h1 {
@@ -171,6 +172,13 @@ a.dark-link{
 .three-d-copy a:hover, .three-d-copy a:focus{
     color: #3498DB;
 }
+
+/* ============================
+
+    Go to top btn
+
+*  ============================ */
+
 
 .go-top{
     position:fixed;
