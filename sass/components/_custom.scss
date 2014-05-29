@@ -27,6 +27,8 @@ a, a:hover, a:focus {
 a.logo, a.logo:hover, a.logo:focus {
     text-decoration: none;
     color: #ECF0F1;
+    pointer-events: none;
+    cursor: default;
 }
 
 h1 {
