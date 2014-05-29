@@ -180,7 +180,7 @@ a:active {
 
   /*  Reverses order of grid for content choreography */
   .grid-flip {
-    float: right; }
+    float: left; }
 
   /*  Optionally show grid for small screens */
   .row-start-xsmall .grid-fourth {
@@ -1161,3 +1161,17 @@ a.dark-link {
 
 .three-d-copy a:hover, .three-d-copy a:focus {
   color: #3498DB; }
+
+.go-top {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  padding: 1em;
+  display: none; }
+
+.go-top:hover {
+  background-color: rgba(0, 0, 0, 0.6); }
