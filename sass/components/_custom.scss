@@ -24,8 +24,9 @@ a, a:hover, a:focus {
     float: none;
 }
 
-a.logo {
+a.logo, a.logo:hover, a.logo:focus {
     text-decoration: none;
+    color: #ECF0F1;
 }
 
 h1 {

@@ -1047,8 +1047,9 @@ a, a:hover, a:focus {
   font-size: 3em;
   float: none; }
 
-a.logo {
-  text-decoration: none; }
+a.logo, a.logo:hover, a.logo:focus {
+  text-decoration: none;
+  color: #ECF0F1; }
 
 h1 {
   font-size: 3em; }
