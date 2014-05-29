@@ -1036,6 +1036,9 @@ a .btn-tumblr:hover {
   padding-bottom: 2em;
   color: #ECF0F1; }
 
+.nav-wrap {
+  text-align: center; }
+
 a, a:hover, a:focus {
   color: #ECF0F1; }
 
