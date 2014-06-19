@@ -3,24 +3,14 @@ layout: default
 title: teaching.notandrewkaye.com
 ---
 
-<section class="text-center DFWP course-banner" role="banner">
-  <h1><a href="{{ site.baseurl}}/dfwp.html">Designing for Wordpress</a></h1>
-</section>
-<section class="text-center PP course-banner" role="banner">
-  <h1><a href="{{ site.baseurl}}/pp.html">Portfolio Prep</a></h1>
-</section>
-<section class="text-center AHAC course-banner" role="banner">
-  <h1><a href="{{ site.baseurl}}/ahac.html">Advanced HTML & CSS</a></h1>
-</section>
-<section class="text-center CMS course-banner" role="banner">
-  <h1><a href="{{ site.baseurl}}/cms.html">Content Management Systems</a></h1>
-</section>
-<section class="text-center APS course-banner" role="banner">
-  <h1><a href="{{ site.baseurl}}/aps.html">Photoshop</a></h1>
-</section>
-<section class="text-center AI course-banner" role="banner">
-  <h1><a href="{{ site.baseurl}}/ai.html">Illustrator</a></h1>
-</section>
-<section class="text-center three-d course-banner" role="banner">
-  <h1><a href="{{ site.baseurl}}/three-d.html">Introduction to 3D Modeling: Rhino and Maya</a></h1>
-</section> 
+{% for page in site.pages %}
+			
+			{% if page.layout == "page" %}
+
+				<section class="text-center {{ page.tag }} course-banner" role="banner">
+  				<h1><a href="{{ site.baseurl}}/{{ page.url }}">{{ page.title }}</a></h1>
+				</section>
+
+			{% endif %}
+{% endfor %}
+
