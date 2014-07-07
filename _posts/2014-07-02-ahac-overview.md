@@ -17,7 +17,7 @@ This course focuses on a single large-scale web project created over the course 
 
 ### Course Syllabus
 
-[Download Syllabus](media/AdvancedHTMLandCSS_SyllabusSpring2014.pdf)
+[Download Syllabus](media/AHAC_SyllabusSpring2014.pdf)
 
 ### Course Structure
 
