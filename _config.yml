@@ -8,7 +8,7 @@ paginate: 20
 
 markdown: rdiscount
 permalink: /:categories/:title
-pygments: true
+highlighter: pygments
 
 
 # prose.io configuration
