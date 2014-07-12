@@ -1,0 +1,15 @@
+---
+title: "Introduction to Interactive Media"
+layout: page
+tag: "aps"
+---
+
+{% for post in site.posts reversed %}
+    
+    {% if post.tag == page.tag %}
+        <h2><span id="{{ post.name }}">{{ post.title }}</span></h2>
+        <div class="aps-copy">
+            {{ post.content }}
+        </div>
+    {% endif %}
+{% endfor %}
