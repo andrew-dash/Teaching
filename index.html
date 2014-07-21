@@ -7,9 +7,9 @@ title: teaching.notandrewkaye.com
 			
 			{% if page.layout == "page" %}
 
-				<section class="text-center {{ page.tag }} course-banner" role="banner">
-  				<h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.title }}</a></h1>
-				</section>
+				<a href="{{ site.baseurl}}{{ page.url }}"><section class="text-center {{ page.tag }} course-banner" role="banner">
+  				<h1>{{ page.title }}</h1>
+				</section></a>
 
 			{% endif %}
 {% endfor %}
