@@ -12,7 +12,7 @@ This page will serve as our hub of information. Below are weekly class summaries
 
 In this course, students learn the ins and outs of the WordPress platform. While working with WordPress, students create themes from scratch and learn to modify pre-existing themes. This course focuses on covering all aspects of building and maintaining WordPress driven sites. Students will leave feeling comfortable with a complete Wordpress workflow, from design customizations to basic PHP adjustments. 
 
-###[Download Syllabus](media/wordpress/DesigningForWordpressSyllabusFall2014.pdf)
+###[Download Syllabus](media/DesigningForWordpressSyllabusFall2014.pdf)
 
 ### Course Structure
 
