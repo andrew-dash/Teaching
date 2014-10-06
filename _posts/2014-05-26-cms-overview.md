@@ -16,7 +16,7 @@ Content Management Systems is meant to broaden the student's understanding of se
 
 ### Course Syllabus
 
-[Download Syllabus](media/ContentManagementSystemsSyllabusSummer2014.pdf)
+[Download Syllabus](media/ContentManagementSystemsSyllabusFall2014.pdf)
 
 ### Course Structure
 
