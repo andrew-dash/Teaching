@@ -6,7 +6,7 @@ baseurl: "/Teaching"
 
 paginate: 20
 
-markdown: rdiscount
+#markdown: rdiscount
 permalink: /:categories/:title
 highlighter: pygments
 
