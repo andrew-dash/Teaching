@@ -10,6 +10,9 @@ markdown: rdiscount
 permalink: /:categories/:title
 highlighter: pygments
 
+gems:
+- jemoji
+- jekyll-sitemap
 
 # prose.io configuration
 
