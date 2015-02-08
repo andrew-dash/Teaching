@@ -2,7 +2,7 @@ name: "teaching.notandrewkaye.com"
 description: "Course Directory"
 
 url: "http://notandrewkaye.github.io/Teaching/"
-baseurl: "/Teaching"
+baseurl: "/Teaching/"
 
 paginate: 20
 
@@ -22,73 +22,3 @@ sitemap:
         - "/index.html"
     change_frequency_name: "change_frequency"
     priority_name: "priority"
-
-# prose.io configuration
-
-prose:
-  rooturl: '_posts'
-  siteurl: 'http://notandrewkaye.github.io/Teaching/'
-  relativeLinks: 'http://notandrewkaye.github.io/Teaching/links.jsonp'
-  media: 'assets/images/'
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "published"
-        field:
-          element: "hidden"
-          value: "true"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "name"
-        field:
-          element: "text"
-          label: "Name"
-          value: ""
-      - name: "category"
-        field:
-          element: "select"
-          label: "Add Categories"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Designing For Wordpress"
-              value: "dfwp"
-            - name: "Portfolio Prep"
-              value: "pp"
-            - name: "Advanced HTML & CSS"
-              value: "ahac"
-            - name: "Content Management Systems"
-              value: "cms"
-            - name: "Photoshop"
-              value: "aps"
-            - name: "Illustrator"
-              value: "ai"
-            - name: "Introduction to 3D Modeling"
-              value: "threed"
-      - name: "tag"
-        field:
-          element: "select"
-          label: "Add Tag"
-          placeholder: "Choose Tags"
-          options:
-            - name: "DFWP"
-              value: "DFWP"
-            - name: "PP"
-              value: "PP"
-            - name: "AHAC"
-              value: "AHAC"
-            - name: "CMS"
-              value: "CMS"
-            - name: "APS"
-              value: "APS"
-            - name: "AI"
-              value: "AI"
-            - name: "3D"
-              value: "3D"
-
-
